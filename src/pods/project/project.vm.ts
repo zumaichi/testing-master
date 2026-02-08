@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
   name: string;
-  description: string; //agregado para q funcione los test de las listas vacias o co que contienen datos
+  description: string; //agregado para q funcione los test de las listas vacias o condatos
   externalId?: string;
   comments?: string;
   isActive: boolean;
