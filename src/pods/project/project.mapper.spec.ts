@@ -1,7 +1,6 @@
 import * as mapProjectFromApiToVm from './project.mapper';
 import * as viewModel from './project.vm';
-import * as apiModel from './api/project.api-model';
-import { id } from '#pods/employee/components/data.styles';
+
 
 describe('null or undefined', () => {
   describe('null', () => {
