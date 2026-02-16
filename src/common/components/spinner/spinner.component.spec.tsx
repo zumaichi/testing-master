@@ -8,7 +8,7 @@ vi.mock('react-promise-tracker', () => ({
 }));
 
 describe('SpinnerComponent', () => {
-  beforeEach(() => {
+  beforeEach(() => { 
     vi.clearAllMocks();
   });
   it('deberia aparecer modal al tener una promesa en progreso', () => {
